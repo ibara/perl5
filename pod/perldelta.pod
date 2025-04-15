@@ -289,7 +289,8 @@ made:
 
 =item *
 
-XXX
+When testing embedding, add a sanity check to ensure the C<libperl> we
+link against matches the perl we are building.  [GH #22125]
 
 =back
 
@@ -338,9 +339,10 @@ L</Modules and Pragmata> section.
 
 =over 4
 
-=item XXX-some-platform
+=item OpenBSD
 
-XXX
+When testing embedding, ensure we link against the correct static
+libperl. [GH #22125]
 
 =back
 
